@@ -6,20 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "json-server": "json-server --watch data/todos.json --port 3001"
   },
   "dependencies": {
     "@types/node": "20.11.18",
     "@types/react": "18.2.55",
     "@types/react-dom": "18.2.19",
+    "@types/uuid": "^9.0.8",
     "autoprefixer": "10.4.17",
+    "daisyui": "^4.7.2",
     "eslint": "8.56.0",
     "eslint-config-next": "14.1.0",
     "next": "14.1.0",
     "postcss": "8.4.35",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^5.0.1",
     "tailwindcss": "3.4.1",
-    "typescript": "5.3.3"
+    "typescript": "5.3.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-alpha.23"
   }
 }
